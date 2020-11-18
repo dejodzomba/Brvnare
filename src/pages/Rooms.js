@@ -1,0 +1,34 @@
+import React from 'react';
+import Hero from '../components/Hero';
+import Banner from '../components/Banner';
+import { Link } from 'react-router-dom';
+
+import RoomContainer from '../components/RoomContainer';
+
+
+export default function Rooms() {
+    return (
+
+        <
+        >
+        <
+        Hero hero = "roomsHero" >
+        <
+        Banner title = "Naši apartmani"
+        subtitle = "Nazad na početnu" >
+        <
+        Link to = "/"
+        className = "btn-primary" >
+        Return Home <
+        /Link>  
+
+        <
+        /Banner >
+
+        <
+        /Hero>    <
+        RoomContainer / >
+        <
+        />
+    );
+};
