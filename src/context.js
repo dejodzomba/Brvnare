@@ -25,7 +25,6 @@ export default class RoomProvider extends Component {
             loading: false
         });
 
-        //izmjenit ovako za komplet sve cetiri sobe u apartments
 
     }
 
@@ -46,8 +45,7 @@ export default class RoomProvider extends Component {
         let tempRooms = [...this.state.rooms];
         const room = tempRooms.find(room => room.slug === slug);
         return room;
-        /*find pronadji roms.slug koji je ejdna slug
-        find, ovdje u pretrazivanju apartmana kuca se ime iz sluga*/
+        
     };
 
     render() {
