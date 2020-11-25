@@ -13,5 +13,3 @@ Hero.defaulProps = {
 
 
 
-/*Ovdje dva props, children sve ono sto upada pod <Hero>**ovdje izmedju </Hero>
-   tako u Home.js. Ovo hero e  */
