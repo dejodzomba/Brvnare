@@ -13,6 +13,3 @@ export default function Banner({ children, title, subtitle }) {
 
 
 
-/* children je sve ono sto ulazi u baner u nekoj kompon
-enti kad se pravi. Kao npr u Home.js. Gdje je title, pa subtitle
-a link to, button to je ovo children*/
